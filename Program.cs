@@ -10,7 +10,6 @@ class Program
         Console.WriteLine("Qual a tabuada?");
         tabuada = Convert.ToInt32(Console.ReadLine());
 
-
         while(contador <= 10)
         {
             resultado = tabuada * contador;
